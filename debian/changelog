@@ -1,0 +1,6 @@
+yadm (1.02-1) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Yao-Po Wang <blue119@gmail.com>  Tue, 06 Oct 2015 20:40:25 +0800
