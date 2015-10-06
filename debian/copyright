@@ -1,16 +1,13 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: yadm
-Source: <url://example.com>
+Source: https://github.com/TheLocehiliosan/yadm
 
-Files:     CHANGES
+Files:     yadm
+           CHANGES
            Makefile
            README.md
            yadm.1
            yadm.md
-Copyright: __NO_COPYRIGHT_NOR_LICENSE__
-License:   __UNKNOWN__
-
-Files:     yadm
 Copyright: 2015 Tim Byrne
 License:   GPL-3.0
  This program is free software: you can redistribute it and/or modify
