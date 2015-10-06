@@ -2,13 +2,14 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: yadm
 Source: https://github.com/TheLocehiliosan/yadm
 
-Files:     yadm
-           CHANGES
-           Makefile
-           README.md
-           yadm.1
-           yadm.md
+Files: *
 Copyright: 2015 Tim Byrne
+License:   GPL-3.0
+
+Files: debian/*
+Copyright: 2015 Yao-Po Wang
+License:   GPL-3.0
+
 License:   GPL-3.0
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -25,23 +26,3 @@ License:   GPL-3.0
  On Debian systems, the complete text of the GNU General Public License
  Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
 
-#----------------------------------------------------------------------------
-# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
-# license/copyright files.
-
-#----------------------------------------------------------------------------
-# License file: LICENSE
- yadm - Yet Another Dotfiles Manager
- Copyright (C) 2015  Tim Byrne
- .
- This program is free software: you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation, version 3 of the License.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program.  If not, see <http://www.gnu.org/licenses/>.

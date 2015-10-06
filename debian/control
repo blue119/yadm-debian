@@ -1,15 +1,14 @@
 Source: yadm
-Section: main
-Priority: extra
+Priority: optional
+Section: utils
 Maintainer: Yao-Po Wang <blue119@gmail.com>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
 Homepage: https://github.com/TheLocehiliosan/yadm
 
 Package: yadm
-Architecture: any
-Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Architecture: all
+Depends: ${misc:Depends}
 Description: Yet Another Dotfiles Manager
  yadm is a dotfile management tool with 3 main features: Manages files across
  systems using a single Git repository. Provides a way to use alternate files on
